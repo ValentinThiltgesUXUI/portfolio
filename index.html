@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentin Thiltges | UX/UI Designer & Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="https://placehold.co/32x32?text=VT">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">VT<span class="logo-dot"></span></h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="profile-image">
+                    <img src="/logo/Image (2).jpg" alt="Valentin Thiltges">
+                </div>
+                <h2 class="title">UX/UI Designer & Web Developer</h2>
+                <p class="subtitle">Création d'expériences digitales intuitives et esthétiques qui résolvent de vrais problèmes.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="button primary">Me contacter</a>
+                    <a href="#projects" class="button secondary">Voir mes projets</a>
+                </div>
+                <div class="scroll-indicator">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <div class="arrow"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">À propos</h2>
+                <div class="about-content">
+                    <p>Bonjour, je suis <span class="highlight">Valentin Thiltges</span>, récemment diplômé en UX/UI Web Design. Je suis passionné par la création de designs centrés sur l'utilisateur qui sont à la fois fonctionnels et esthétiquement plaisants.</p>
+                    <p>Mon approche combine la <span class="highlight">pensée analytique</span> et la <span class="highlight">résolution créative</span> de problèmes pour offrir des expériences digitales intuitives. Je crois en un design avec un objectif, où chaque élément répond aux besoins de l'utilisateur et contribue à un ensemble cohérent.</p>
+                    <p>Quand je ne conçois pas, vous pouvez me trouver en train d'explorer de nouvelles tendances de design, d'expérimenter avec de nouvelles technologies ou de chercher de l'inspiration dans l'art et la nature.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Compétences & Expertise</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Low-Code & No-Code</h3>
+                        <div class="skill-logos">
+                            <div class="skill-logo">
+                                <img src="logo/logo_weweb.png" alt="WeWeb">
+                                <span>WeWeb</span>
+                            </div>
+                            <div class="skill-logo">
+                                <img src="logo/Image (3).jpg" alt="Supabase">
+                                <span>Supabase</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h3>Design & Prototypage</h3>
+                        <div class="skill-logos">
+                            <div class="skill-logo">
+                                <img src="logo/figmaa.png" alt="Figma">
+                                <span>Figma</span>
+                            </div>
+                            <div class="skill-logo">
+                                <img src="logo/photoshop.png" alt="Photoshop">
+                                <span>Adobe Photoshop</span>
+                            </div>
+                            <div class="skill-logo">
+                                <img src="logo/illust.jpg" alt="Illustrator">
+                                <span>Adobe Illustrator</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h3>Développement Web</h3>
+                        <div class="skill-logos">
+                            <div class="skill-logo">
+                                <img src="logo/htmll.jpg" alt="HTML">
+                                <span>HTML</span>
+                            </div>
+                            <div class="skill-logo">
+                                <img src="logo/css.png" alt="CSS">
+                                <span>CSS</span>
+                            </div>
+                            <div class="skill-logo">
+                                <img src="logo/js.png" alt="JavaScript">
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-logo">
+                                <img src="logo/php.jpg" alt="PHP">
+                                <span>PHP</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h3>Frameworks & CMS</h3>
+                        <div class="skill-logos">
+                            <div class="skill-logo">
+                                <img src="logo/laravel.jpg" alt="Laravel">
+                                <span>Laravel</span>
+                            </div>
+                            <div class="skill-logo">
+                                <img src="logo/wp.png" alt="WordPress">
+                                <span>WordPress</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Projets Sélectionnés</h2>
+                <div class="projects-grid">
+                    <!-- Projet 1 -->
+                    <div class="project-card" data-id="project1">
+                        <div class="project-image">
+                            <img src="logo/carbondesk.png" alt="Low code">
+                        </div>
+                        <div class="project-content">
+                            <h3>Application low-code/ no-code</h3>
+                            <p>Création d'une app et d'un interface admin pour une entreprise de transports</p>
+                            <a href="#" class="project-link view-details">Voir les détails</a>
+                        </div>
+                    </div>
+
+                    <!-- Projet 2 -->
+                    <div class="project-card" data-id="project2">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400?text=HealthTrack" alt="HealthTrack">
+                        </div>
+                        <div class="project-content">
+                            <h3>Création de template Figma</h3>
+                            <p>Utilisations de worframes figma, pour concevoir un website/app UX/UI</p>
+                            <a href="#" class="project-link view-details">Voir les détails</a>
+                        </div>
+                    </div>
+
+                    <!-- Projet 3 -->
+                    <div class="project-card" data-id="project3">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400?text=EduLearn" alt="EduLearn">
+                        </div>
+                        <div class="project-content">
+                            <h3>Creation de site en code complet</h3>
+                            <p>Creation d'un site responsive en HTML/CSS/JS</p>
+                            <a href="#" class="project-link view-details">Voir les détails</a>
+                        </div>
+                    </div>
+
+                    <!-- Projet 4 -->
+                    <div class="project-card" data-id="project4">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400?text=DesignSystem" alt="Design System">
+                        </div>
+                        <div class="project-content">
+                            <h3>Website Wordpress/Creation de theme wordpress</h3>
+                            <p>Création de template, et de themes wordpress en PHP, ou utlisation de theme déja existant</p>
+                            <a href="#" class="project-link view-details">Voir les détails</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Modal -->
+        <div class="project-modal" id="projectModal">
+            <div class="modal-content">
+                <button class="close-modal">&times;</button>
+                <div class="modal-body">
+                    <!-- Content will be dynamically inserted here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Me Contacter</h2>
+                <div class="contact-content">
+                    <p>Intéressé par une collaboration? N'hésitez pas à me contacter via l'un des canaux ci-dessous.</p>
+                    <div class="contact-links">
+                        <a href="mailto:valentin.thiltges@example.com" class="contact-link" aria-label="Email">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        </a>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                        </a>
+                        <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                        </a>
+                    </div>
+                    <p class="location">Basé au Luxembourg, disponible dans le monde entier</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="current-year"></span> Valentin Thiltges. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Project Details Templates (Hidden) -->
+<!-- Project Details Templates (Hidden) -->
+<template id="project1-template">
+    <div class="project-detail">
+        <div class="project-detail-header">
+            <img src="logo/carbondesk - Copie.png" alt="TransportApp" class="project-detail-image">
+        </div>
+        <div class="project-detail-content">
+            <h2>Application low-code/no-code pour une entreprise de transport</h2>
+            <div class="project-meta">
+                <span class="project-tag">Low code/no code</span>
+                <span class="project-tag">Gestion</span>
+                <span class="project-tag">Admin Interface</span>
+            </div>
+            <h3>Le défi</h3>
+            <p>Développer une application de gestion pour une entreprise de transport, permettant d’optimiser les processus internes et d'améliorer la communication entre les employés et l'administration.</p>
+            
+            <h3>Ma solution</h3>
+            <p>J'ai conçu une application intuitive et performante :</p>
+            <ul>
+                <li>Interface administrateur complète pour la gestion des transports</li>
+                <li>Tableau de bord interactif et suivi en temps réel</li>
+                <li>Automatisation des tâches récurrentes</li>
+                <li>Optimisation mobile pour une accessibilité maximale</li>
+            </ul>
+            
+            <h3>Résultats</h3>
+            <p>Cette solution a permis :</p>
+            <ul>
+                <li>Une amélioration de 40% de l'efficacité des processus internes</li>
+                <li>Une réduction des erreurs de saisie grâce à l'automatisation</li>
+                <li>Une meilleure visibilité et gestion des opérations</li>
+            </ul>
+            
+            <div class="project-images">
+                <img src="logo/carbonmobile.png" alt="Dashboard">
+                <img src="logo/carbonmobile2.png" alt="Admin Interface">
+            </div>
+        </div>
+    </div>
+</template>
+
+<template id="project2-template">
+    <div class="project-detail">
+        <div class="project-detail-header">
+            <img src="https://placehold.co/1200x600?text=FigmaTemplates" alt="Figma Templates" class="project-detail-image">
+        </div>
+        <div class="project-detail-content">
+            <h2>Création de templates Figma</h2>
+            <div class="project-meta">
+                <span class="project-tag">UI/UX Design</span>
+                <span class="project-tag">Wireframes</span>
+                <span class="project-tag">Prototypage</span>
+            </div>
+            <h3>Le défi</h3>
+            <p>Concevoir des templates Figma optimisés pour la création rapide de sites et d'applications, facilitant le travail des designers et développeurs.</p>
+            <h3>Ma solution</h3>
+            <p>J'ai développé une bibliothèque de templates :</p>
+            <ul>
+                <li>Wireframes interactifs et adaptatifs</li>
+                <li>Composants réutilisables avec système de design system</li>
+                <li>Prototypes interactifs pour test utilisateur</li>
+            </ul>
+            <h3>Résultats</h3>
+            <p>Les templates ont permis :</p>
+            <ul>
+                <li>Une réduction de 50% du temps de conception</li>
+                <li>Une amélioration de la cohérence visuelle des projets</li>
+            </ul>
+            <div class="project-images">
+                <img src="https://placehold.co/600x400?text=Wireframes" alt="Wireframes">
+                <img src="https://placehold.co/600x400?text=Prototypes" alt="Prototypes">
+            </div>
+        </div>
+    </div>
+</template>
+
+<template id="project3-template">
+    <div class="project-detail">
+        <div class="project-detail-header">
+            <img src="https://placehold.co/1200x600?text=EduLearn" alt="EduLearn" class="project-detail-image">
+        </div>
+        <div class="project-detail-content">
+            <h2>Création d'un site en code complet</h2>
+            <div class="project-meta">
+                <span class="project-tag">HTML/CSS/JS</span>
+                <span class="project-tag">Responsive</span>
+                <span class="project-tag">Développement Web</span>
+            </div>
+            <h3>Le défi</h3>
+            <p>Développer un site web responsive et performant, intégrant les meilleures pratiques en UX/UI et optimisé pour tous les supports.</p>
+            <h3>Ma solution</h3>
+            <p>J'ai mis en place :</p>
+            <ul>
+                <li>Un code optimisé pour la rapidité et la fluidité</li>
+                <li>Une compatibilité avec tous les navigateurs</li>
+                <li>Un design épuré et interactif</li>
+            </ul>
+            <h3>Résultats</h3>
+            <p>Le projet a abouti à :</p>
+            <ul>
+                <li>Une amélioration du SEO et du temps de chargement</li>
+                <li>Une interface accessible et intuitive</li>
+            </ul>
+            <div class="project-images">
+                <img src="https://placehold.co/600x400?text=Code+Snippet" alt="Code Snippet">
+                <img src="https://placehold.co/600x400?text=Final+Website" alt="Final Website">
+            </div>
+        </div>
+    </div>
+</template>
+
+<template id="project4-template">
+    <div class="project-detail">
+        <div class="project-detail-header">
+            <img src="https://placehold.co/1200x600?text=WordPressTheme" alt="WordPress Theme" class="project-detail-image">
+        </div>
+        <div class="project-detail-content">
+            <h2>Création de thème WordPress</h2>
+            <div class="project-meta">
+                <span class="project-tag">WordPress</span>
+                <span class="project-tag">Développement</span>
+                <span class="project-tag">Personnalisation</span>
+            </div>
+            <h3>Le défi</h3>
+            <p>Concevoir un thème WordPress personnalisé, en partant de zéro ou en optimisant un thème existant, pour offrir une solution sur-mesure aux clients.</p>
+            <h3>Ma solution</h3>
+            <p>J'ai développé un thème WordPress :</p>
+            <ul>
+                <li>Codé en PHP, HTML, CSS et JavaScript</li>
+                <li>Entièrement personnalisable avec des options avancées</li>
+                <li>Optimisé pour la performance et le référencement</li>
+            </ul>
+            <h3>Résultats</h3>
+            <p>Le thème a permis :</p>
+            <ul>
+                <li>Une amélioration de la flexibilité pour les clients</li>
+                <li>Une optimisation du SEO et de la vitesse de chargement</li>
+            </ul>
+            <div class="project-images">
+                <img src="https://placehold.co/600x400?text=Theme+Customization" alt="Theme Customization">
+                <img src="https://placehold.co/600x400?text=Live+Preview" alt="Live Preview">
+            </div>
+        </div>
+    </div>
+</template>
+
+    <script src="script.js"></script>
+</body>
+</html>
